@@ -1,0 +1,51 @@
+RANK,STATE,INCOME REQUIRED,Region
+3,Alabama,"$46,577 ",South
+46,Alaska,"$71,570 ",West
+37,Arizona,"$60,026 ",West
+4,Arkansas,"$47,111 ",South
+48,California,"$80,013 ",West
+35,Colorado,"$59,218 ",West
+40,Connecticut,"$63,078 ",Northeast
+29,Delaware,"$56,571 ",Northeast
+30,Florida,"$57,064 ",South
+10,Georgia,"$49,051 ",South
+50,Hawaii,"$112,411 ",West
+33,Idaho,"$58,634 ",West
+13,Illinois,"$49,372 ",Midwest
+15,Indiana,"$49,855 ",Midwest
+9,Iowa,"$48,518 ",Midwest
+6,Kansas,"$47,379 ",Midwest
+5,Kentucky,"$47,318 ",South
+16,Louisiana,"$50,087 ",South
+38,Maine,"$60,862 ",Northeast
+45,Maryland,"$67,915 ",Northeast
+49,Massachusetts,"$87,909 ",Northeast
+17,Michigan,"$50,049 ",Midwest
+21,Minnesota,"$51,668 ",Midwest
+1,Mississippi,"$45,906 ",South
+8,Missouri,"$47,771 ",Midwest
+31,Montana,"$57,056 ",West
+11,Nebraska,"$49,009 ",Midwest
+34,Nevada,"$58,580 ",West
+39,New Hampshire,"$62,935 ",Northeast
+41,New Jersey,"$64,463 ",Northeast
+20,New Mexico,"$51,214 ",West
+47,New York,"$73,226 ",Northeast
+26,North Carolina,"$53,531 ",South
+24,North Dakota,"$52,807 ",Midwest
+18,Ohio,"$50,157 ",Midwest
+2,Oklahoma,"$46,024 ",South
+43,Oregon,"$65,763 ",West
+27,Pennsylvania,"$53,838 ",Northeast
+36,Rhode Island,"$59,936 ",Northeast
+23,South Carolina,"$52,222 ",South
+22,South Dakota,"$52,095 ",Midwest
+12,Tennessee,"$48,774 ",South
+19,Texas,"$50,497 ",South
+28,Utah,"$55,293 ",West
+44,Vermont,"$65,923 ",Northeast
+32,Virginia,"$57,293 ",South
+42,Washington,"$65,640 ",West
+7,West Virginia,"$47,732 ",South
+25,Wisconsin,"$53,122 ",Midwest
+14,Wyoming,"$49,666 ",West

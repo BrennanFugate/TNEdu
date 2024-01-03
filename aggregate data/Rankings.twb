@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0909.1159                               -->
+<workbook original-version='18.1' source-build='2023.2.2 (20232.23.0909.1159)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='ACT Scores Over Time' inline='true' name='federated.1ab9ljm1w6cj971ajh4cx08hg6nh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ACT Scores Over Time' name='textscan.1mf6rc41uc916d1bv1jyf182pmwd'>
+            <connection class='textscan' directory='C:/Users/brenn/Desktop/NSS/Capstone/Projects/educrime/data' filename='ACT Scores Over Time.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1mf6rc41uc916d1bv1jyf182pmwd' name='ACT Scores Over Time.csv' table='[ACT Scores Over Time#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='real' name='National' ordinal='1' />
+            <column datatype='integer' name='U.S.&apos;s International Ranking' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='real' name='Tennessee' ordinal='6' />
+            <column datatype='real' name='Massachusetts' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1mf6rc41uc916d1bv1jyf182pmwd' name='ACT Scores Over Time.csv' table='[ACT Scores Over Time#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='real' name='National' ordinal='1' />
+            <column datatype='integer' name='U.S.&apos;s International Ranking' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='real' name='Tennessee' ordinal='6' />
+            <column datatype='real' name='Massachusetts' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ACT Scores Over Time.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[ACT Scores Over Time.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACT Scores Over Time.csv_CD6B965EECC04342BC75F42C35740790]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>National</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[National]</local-name>
+            <parent-name>[ACT Scores Over Time.csv]</parent-name>
+            <remote-alias>National</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACT Scores Over Time.csv_CD6B965EECC04342BC75F42C35740790]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U.S.&apos;s International Ranking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[U.S.&apos;s International Ranking]</local-name>
+            <parent-name>[ACT Scores Over Time.csv]</parent-name>
+            <remote-alias>U.S.&apos;s International Ranking</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACT Scores Over Time.csv_CD6B965EECC04342BC75F42C35740790]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[ACT Scores Over Time.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACT Scores Over Time.csv_CD6B965EECC04342BC75F42C35740790]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[ACT Scores Over Time.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACT Scores Over Time.csv_CD6B965EECC04342BC75F42C35740790]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[ACT Scores Over Time.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACT Scores Over Time.csv_CD6B965EECC04342BC75F42C35740790]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tennessee</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tennessee]</local-name>
+            <parent-name>[ACT Scores Over Time.csv]</parent-name>
+            <remote-alias>Tennessee</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACT Scores Over Time.csv_CD6B965EECC04342BC75F42C35740790]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Massachusetts</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Massachusetts]</local-name>
+            <parent-name>[ACT Scores Over Time.csv]</parent-name>
+            <remote-alias>Massachusetts</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACT Scores Over Time.csv_CD6B965EECC04342BC75F42C35740790]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='ACT Scores Over Time.csv' datatype='table' name='[__tableau_internal_object_id__].[ACT Scores Over Time.csv_CD6B965EECC04342BC75F42C35740790]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ACT Scores Over Time.csv' id='ACT Scores Over Time.csv_CD6B965EECC04342BC75F42C35740790'>
+            <properties context=''>
+              <relation connection='textscan.1mf6rc41uc916d1bv1jyf182pmwd' name='ACT Scores Over Time.csv' table='[ACT Scores Over Time#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='real' name='National' ordinal='1' />
+                  <column datatype='integer' name='U.S.&apos;s International Ranking' ordinal='2' />
+                  <column datatype='string' name='F4' ordinal='3' />
+                  <column datatype='string' name='F5' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='real' name='Tennessee' ordinal='6' />
+                  <column datatype='real' name='Massachusetts' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CA7DC3BF-C11D-422D-B2C2-CBC94B7EB772}' />
+    </worksheet>
+    <worksheet name='US International Rankings Over Time'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ACT Scores Over Time' name='federated.1ab9ljm1w6cj971ajh4cx08hg6nh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ab9ljm1w6cj971ajh4cx08hg6nh'>
+            <column datatype='integer' name='[U.S.&apos;s International Ranking]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[U.S.&apos;s International Ranking]' derivation='Sum' name='[sum:U.S.&apos;s International Ranking:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1ab9ljm1w6cj971ajh4cx08hg6nh].[sum:U.S.&apos;s International Ranking:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1ab9ljm1w6cj971ajh4cx08hg6nh].[sum:U.S.&apos;s International Ranking:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1ab9ljm1w6cj971ajh4cx08hg6nh].[sum:U.S.&apos;s International Ranking:qk]' field-type='quantitative' reverse='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <path column='[federated.1ab9ljm1w6cj971ajh4cx08hg6nh].[none:Year:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ab9ljm1w6cj971ajh4cx08hg6nh].[sum:U.S.&apos;s International Ranking:qk]</rows>
+        <cols>[federated.1ab9ljm1w6cj971ajh4cx08hg6nh].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{7EA2BD7C-A625-4C38-83EF-3BB348B349CC}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='US International Rankings Over Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ab9ljm1w6cj971ajh4cx08hg6nh].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{09FC582F-FB6C-4DEC-AD7D-57CDBF5BA70A}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D59FEE8F-6BB1-43A2-9D38-927EA67042C9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACF0lEQVR4nO3TMQEAIAzAMIZ/z0MGRxMFfTq7uweCZmbu7wj4yQCkGYA0A5BmANIMQJoB
+      SDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0
+      A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMA
+      aQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5Bm
+      ANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYg
+      zQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIM
+      QJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCk
+      GYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoB
+      SDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0
+      A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSHtb
+      egWA0FAUAAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='US International Rankings Over Time' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
